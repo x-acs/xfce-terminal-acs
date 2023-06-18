@@ -1,0 +1,41 @@
+#+title: README
+#+author: Sidney PEPO
+#+date: [2023-12-10 Sun]
+
+* Xfce Terminal-ACS
+** Screenshots
+[[file:screenshots/01.png]]
+[[file:screenshots/02.png]]
+
+** Installation
+To install ACS in Xfce Terminal, open ~terminalrc~ file (its path should be ~​~/.config/xfce4/terminal/terminalrc~) and append the following lines in the end of it (according to your theme choice):
+
+#+begin_quote
+Hint: you can also check if the following lines already exist in the file and, if so, just change each original value to its respective new one below.
+#+end_quote
+
+*** Dark theme
+#+begin_src conf
+  TabActivityColor=#cccc00000000
+  ColorBackground=#111111111111
+  ColorForeground=#eeeeeeeeeeee
+  ColorCursor=#bbbbbbbbbbbb
+  ColorCursorForeground=#111111111111
+  ColorSelectionUseDefault=FALSE
+  ColorSelection=#eeeeeeeeeeee
+  ColorSelectionBackground=#444444444444
+  ColorPalette=rgb(17,17,17);rgb(204,0,0);rgb(0,170,34);rgb(204,136,0);rgb(0,51,204);rgb(170,0,204);rgb(0,153,187);rgb(187,187,187);rgb(68,68,68);rgb(255,34,34);rgb(0,221,85);rgb(255,187,17);rgb(17,102,255);rgb(221,51,255);rgb(0,204,238);rgb(238,238,238)
+#+end_src
+
+*** Light theme
+#+begin_src conf
+  TabActivityColor=#ffff22212221
+  ColorBackground=#eeeeeeeeeeee
+  ColorForeground=#111111111111
+  ColorCursor=#444444444444
+  ColorCursorForeground=#eeeeeeeeeeee
+  ColorSelectionUseDefault=FALSE
+  ColorSelection=#111111111111
+  ColorSelectionBackground=#bbbbbbbbbbbb
+  ColorPalette=rgb(238,238,238);rgb(255,34,34);rgb(0,221,85);rgb(255,187,17);rgb(17,102,255);rgb(221,51,255);rgb(0,204,238);rgb(68,68,68);rgb(187,187,187);rgb(204,0,0);rgb(0,170,34);rgb(204,136,0);rgb(0,51,204);rgb(170,0,204);rgb(0,153,187);rgb(17,17,17)
+#+end_src
