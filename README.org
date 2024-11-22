@@ -1,41 +1,31 @@
 #+title: README
 #+author: Sidney PEPO
-#+date: [2023-12-10 Sun]
+#+date: [2024-11-22 Fri]
 
 * Xfce Terminal-ACS
 ** Screenshots
 [[file:screenshots/01.png]]
+
 [[file:screenshots/02.png]]
 
 ** Installation
-To install ACS in Xfce Terminal, open ~terminalrc~ file (its path should be ~​~/.config/xfce4/terminal/terminalrc~) and append the following lines in the end of it (according to your theme choice):
+To install ACS on Xfce Terminal, follow these instructions:
 
-#+begin_quote
-Hint: you can also check if the following lines already exist in the file and, if so, just change each original value to its respective new one below.
-#+end_quote
+1. Make sure that you've the ~colorschemes/~ directory inside your Xfce Terminal config path. If you do, skip this step. If you don't, don't worry, because for some reason it's not shipped with Xfce stuff anymore, but as we need it, create it by running:
+   #+begin_src sh
+   mkdir -p ~/.config/xfce4/terminal/colorschemes
+   #+end_src
 
-*** Dark theme
-#+begin_src conf
-  TabActivityColor=#cccc00000000
-  ColorBackground=#111111111111
-  ColorForeground=#eeeeeeeeeeee
-  ColorCursor=#bbbbbbbbbbbb
-  ColorCursorForeground=#111111111111
-  ColorSelectionUseDefault=FALSE
-  ColorSelection=#eeeeeeeeeeee
-  ColorSelectionBackground=#444444444444
-  ColorPalette=rgb(17,17,17);rgb(204,0,0);rgb(0,170,34);rgb(204,136,0);rgb(0,51,204);rgb(170,0,204);rgb(0,153,187);rgb(187,187,187);rgb(68,68,68);rgb(255,34,34);rgb(0,221,85);rgb(255,187,17);rgb(17,102,255);rgb(221,51,255);rgb(0,204,238);rgb(238,238,238)
-#+end_src
+2. Clone this repo and move the ~.theme~ files to the Xfce Terminal config path:
+   #+begin_src sh
+   git clone https://git.disroot.org/x-acs/xfce-terminal-acs.git
 
-*** Light theme
-#+begin_src conf
-  TabActivityColor=#ffff22212221
-  ColorBackground=#eeeeeeeeeeee
-  ColorForeground=#111111111111
-  ColorCursor=#444444444444
-  ColorCursorForeground=#eeeeeeeeeeee
-  ColorSelectionUseDefault=FALSE
-  ColorSelection=#111111111111
-  ColorSelectionBackground=#bbbbbbbbbbbb
-  ColorPalette=rgb(238,238,238);rgb(255,34,34);rgb(0,221,85);rgb(255,187,17);rgb(17,102,255);rgb(221,51,255);rgb(0,204,238);rgb(68,68,68);rgb(187,187,187);rgb(204,0,0);rgb(0,170,34);rgb(204,136,0);rgb(0,51,204);rgb(170,0,204);rgb(0,153,187);rgb(17,17,17)
-#+end_src
+   cp -f xfce-terminal-acs/src/* ~/.config/xfce4/terminal/colorschemes/
+   #+end_src
+
+3. Select the chosen theme in the Xfce Terminal preferences dialog. To do that, open a Xfce Terminal instance, right click in a blank area, click in ~Preferences...~ button, click in ~Colors~ tab, go to ~Presets~ section, click in the ~Select Preset~ button to show a dropdown list with the installed themes and then finally select your desired ACS theme. Check the following screenshots to make sure what to do:
+   [[file:screenshots/step01.png]]
+
+   [[file:screenshots/step02.png]]
+
+Now it's done!

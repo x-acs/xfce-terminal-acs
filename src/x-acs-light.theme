@@ -1,0 +1,13 @@
+[Scheme]
+Name=X-ACS Light
+ColorForeground=#111111111111
+ColorBackground=#eeeeeeeeeeee
+TabActivityColor=#ffff22222222
+ColorCursorUseDefault=FALSE
+ColorCursor=#444444444444
+ColorCursorForeground=#eeeeeeeeeeee
+ColorSelectionUseDefault=TRUE
+ColorSelection=#111111111111
+ColorSelectionBackground=#bbbbbbbbbbbb
+ColorPalette=#eeeeee;#ff2222;#00dd55;#ffbb11;#1166ff;#dd33ff;#00ccee;#444444;#bbbbbb;#cc0000;#00aa22;#cc8800;#0033cc;#aa00cc;#0099bb;#111111
+ColorBoldIsBright=TRUE
