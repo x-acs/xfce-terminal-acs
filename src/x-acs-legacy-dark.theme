@@ -1,0 +1,13 @@
+[Scheme]
+Name=X-ACS legacy dark
+ColorForeground=#eeeeeeeeeeee
+ColorBackground=#111111111111
+TabActivityColor=#cccc00000000
+ColorCursorUseDefault=FALSE
+ColorCursor=#bbbbbbbbbbbb
+ColorCursorForeground=#111111111111
+ColorSelectionUseDefault=TRUE
+ColorSelection=#eeeeeeeeeeee
+ColorSelectionBackground=#444444444444
+ColorPalette=#111111;#cc0000;#00aa22;#cc8800;#0033cc;#aa00cc;#0099bb;#bbbbbb;#444444;#ff2222;#00dd55;#ffbb11;#1166ff;#dd33ff;#00ccee;#eeeeee
+ColorBoldIsBright=TRUE

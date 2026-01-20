@@ -1,11 +1,11 @@
 [Scheme]
-Name=X-ACS light
+Name=X-ACS legacy light
 ColorForeground=#111111111111
-ColorBackground=#ddffddffddaa
+ColorBackground=#eeeeeeeeeeee
 TabActivityColor=#ffff22222222
 ColorCursorUseDefault=FALSE
 ColorCursor=#444444444444
-ColorCursorForeground=#ee99ee99ee22
+ColorCursorForeground=#eeeeeeeeeeee
 ColorSelectionUseDefault=TRUE
 ColorSelection=#111111111111
 ColorSelectionBackground=#bbbbbbbbbbbb
